@@ -1,4 +1,5 @@
-#labels and pack
+#2-Example-Labels and Pack
+#Add labels and pack on the basic window created
 import tkinter
 from tkinter import BOTH
 

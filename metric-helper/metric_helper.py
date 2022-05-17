@@ -45,9 +45,9 @@ def convert():
     start_prefix = input_combobox.get()
     end_prefix = output_combobox.get()
 
-    #Covert to the base unit first
+    #Convert to the base unit first
     base_value = start_value*metric_values[start_prefix]
-    #Covert to new metric value
+    #Convert to new metric value
     end_value = base_value/metric_values[end_prefix]
 
     #Update ouput field with answer

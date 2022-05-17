@@ -1,4 +1,5 @@
 #window basics
+#In this example
 import tkinter
 
 #define window
