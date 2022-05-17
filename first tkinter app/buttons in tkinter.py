@@ -14,7 +14,7 @@ root=tk.Tk()
 #note fill option- helps the widget to take up reserved space - options->x,y,both
 #expand option helps to get more reserved space
 greet_button=ttk.Button(root,text="Greet",command=greet)
-greet_button.pack(side='left',fill='x',expand=True)
+greet_button.pack(side='left',fill='both',expand=True)
 
 quit_button=ttk.Button(root,text="quit",command=root.destroy)
 quit_button.pack(side='left')
