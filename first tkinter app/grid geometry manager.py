@@ -8,6 +8,7 @@ def greet():
 
 #define window
 root=tk.Tk()
+root.columnconfigure(0,weight=1)
 
 #create frames
 #padding order -left, top, right, bottom - clockwise order starting from left
